@@ -1,6 +1,6 @@
 
 
-class Vehicle():
+class Vehicle:
 
     def __init__(self, vehicle_factory):
         self.vehicle_factory = vehicle_factory
