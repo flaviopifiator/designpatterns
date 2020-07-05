@@ -16,7 +16,7 @@ class Vehicle():
 
 
 if __name__ == '__main__':
-    motorcycle = Vehicle(type('Motorycle', (), dict(domain='123AA')))
+    motorcycle = Vehicle(type('Motorcycle', (), dict(domain='123AA')))
     car_1 = Vehicle(type('Car', (), dict(domain='AA123AA')))
     car_2 = Vehicle(type('Car', (), dict()))
     
